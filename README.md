@@ -4,9 +4,9 @@
 
 Pastikan sudah terinstal:
 
-- Node.js (versi 18+ disarankan)
+- Node.js (disarankan versi 18+)
 - npm atau yarn
-- MySQL (via XAMPP / Laragon)
+- MySQL (misal via XAMPP / Laragon)
 - Visual Studio Code (opsional)
 
 ---
@@ -15,8 +15,9 @@ Pastikan sudah terinstal:
 
 1. Buka terminal, masuk ke folder backend:
 
-````bash
+```bash
 cd backend
+```
 
 2. Install dependencies:
 
@@ -24,28 +25,29 @@ cd backend
 npm install
 ```
 
-4. Jalankan Database MySQL dan buat database:
+3. Jalankan Database MySQL dan buat database:
 
-```bash
+```sql
 CREATE DATABASE crud_task;
 ```
 
-3. Jalankan server:
+4. Jalankan server backend:
 
 ```bash
 node index.js
 ```
 
-4. Backend berjalan di:
+5. Backend berjalan di:
 
-```bash
+```
 http://localhost:5000
 ```
 
+---
+
 ## 🔧 Instalasi Frontend
 
-1. Buka terminal baru masuk ke folder frontend:
-![Project Diagram](./assets/image.png)
+1. Buka terminal baru, masuk ke folder frontend:
 
 ```bash
 cd frontend
@@ -57,7 +59,7 @@ cd frontend
 npm install
 ```
 
-3. Jalankan frontend::
+3. Jalankan frontend:
 
 ```bash
 npm run dev
@@ -65,7 +67,10 @@ npm run dev
 
 4. Frontend berjalan di:
 
-```bash
+```
 http://localhost:5173
 ```
-````
+
+---
+
+![Project Diagram](./assets/image.png)

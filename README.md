@@ -73,4 +73,4 @@ http://localhost:5173
 
 ---
 
-![Project Diagram](./assets/image.png)
+![Project Diagram](./assets/images.png)
